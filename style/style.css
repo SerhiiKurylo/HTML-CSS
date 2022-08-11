@@ -1,9 +1,12 @@
 
-*{
+*{ 
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: 0;
+    outline: none;
 }
+
 
 .container{
     border: 10px solid #7f7f7f
@@ -48,14 +51,11 @@
     height: 100vh;
     grid-template-areas: "header header header"
                          "aside-left filter filter"
-                         "aside-left main aside-right"
+                         "aside-left main main"
                          "aside-left footer footer"
     
 }
 
-.header{
-    grid-area: header;
-}
 
 .filter{
     grid-area: filter;
@@ -65,12 +65,11 @@
     grid-area: main;
 }
 
-.aside-right{
-    grid-area: aside-right;
-}
 
 .aside-left{
     grid-area: aside-left;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
 }
 
 .footer{
