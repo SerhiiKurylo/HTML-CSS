@@ -11,19 +11,16 @@
 }
 
 .logo{
-    background-color: azure;
     justify-self: start;
     margin-left: 20px;
     height: 40px;
 }
 
 .search{
-    background-color: aqua;
     justify-self: center;    
 }
 
 .menu{
-    background-color: bisque;
     justify-self: end;
     margin-right: 20px;
 }
@@ -97,6 +94,8 @@
     border: 1px solid lightgray;  
     /*margin-right: 20px;*/
     right: 0px;
+    background-color: white;
+
 }
 
 .btn-menu:hover .icon-bell{
