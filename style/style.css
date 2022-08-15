@@ -8,9 +8,7 @@
 }
 
 
-.container{
-    border: 10px solid #7f7f7f
-}
+
 
 .item{
     padding: 10px;
@@ -19,21 +17,13 @@
     text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
     font: 900 60px "Roboto", sans-serif;
 }
-
+/*
 .item1{
     background-color: aquamarine;
 }
 
 .item2{
     background-color: blue;
-}
-
-.item3{
-    background-color: greenyellow;
-}
-
-.item4{
-    background-color: yellow;
 }
 
 .item5{
@@ -43,6 +33,20 @@
 .item6{
     background-color: tomato;
 }
+
+.item3{
+    background-color: greenyellow;
+}
+
+
+
+.item4{
+    background-color: yellow;
+}
+
+
+*/
+
 
 .container{
     display: grid;
@@ -59,17 +63,13 @@
 
 .filter{
     grid-area: filter;
+    padding: 0 20px 0 20px;
 }
 
 .main{
-    grid-area: main;
-}
-
-
-.aside-left{
-    grid-area: aside-left;
     display: grid;
-    grid-template-rows: 5fr 1fr;
+    grid-area: main;
+    padding-right: 20px;
 }
 
 .footer{

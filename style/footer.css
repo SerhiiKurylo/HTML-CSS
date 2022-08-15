@@ -1,0 +1,15 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px;
+    font: 14px "Roboto", sans-serif;
+}
+
+.footer-text{
+    text-align: right;
+}
+
+.youtube{
+    padding-top: 2px;
+    padding-left: 5px;
+}
