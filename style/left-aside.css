@@ -98,3 +98,20 @@
 .cat{
     font-size: 20px;
 }
+
+@media (max-width:1200px){
+    
+    .aside-left{
+        width: 70px;
+    }
+
+    .aside-name{
+        display: none;
+        
+    }
+
+    .aside-count{
+        display: none;
+    }
+    
+}
